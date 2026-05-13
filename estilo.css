@@ -788,3 +788,430 @@ body{
     font-size:17px;
     font-weight:700;
 }
+
+.item-link{
+
+    text-decoration:none;
+
+    color:inherit;
+
+    display:block;
+}
+
+/* =========================
+   BUSCAR
+========================= */
+
+.topo-buscar{
+
+    background:#4a7eff;
+
+    padding:20px;
+
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+
+    color:white;
+}
+
+.titulo-buscar{
+
+    font-size:24px;
+    font-weight:800;
+}
+
+.icone-localizacao{
+
+    width:42px;
+    height:42px;
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,0.18);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:20px;
+}
+
+/* BUSCA */
+
+.caixa-busca-page{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:15px 18px;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.caixa-busca-page i{
+
+    font-size:22px;
+
+    color:#888;
+}
+
+.caixa-busca-page input{
+
+    border:none;
+
+    width:100%;
+
+    outline:none;
+
+    font-size:16px;
+}
+
+/* TITULOS */
+
+.titulo-secao-busca{
+
+    font-size:22px;
+    font-weight:800;
+}
+
+.link-ver-todos{
+
+    color:#4a7eff;
+
+    font-weight:700;
+
+    text-decoration:none;
+}
+
+/* CATEGORIAS */
+
+.categoria-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:22px 10px;
+
+    text-align:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+
+    transition:0.2s;
+}
+
+.categoria-card:hover{
+
+    transform:translateY(-3px);
+}
+
+.icone-categoria{
+
+    font-size:34px;
+}
+
+.texto-categoria{
+
+    margin-top:10px;
+
+    font-size:15px;
+    font-weight:700;
+}
+
+/* CARD BUSCA */
+
+.card-busca{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:16px;
+
+    margin-bottom:16px;
+
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.foto-busca{
+
+    width:75px;
+    height:75px;
+
+    border-radius:20px;
+
+    object-fit:cover;
+}
+
+.nome-busca{
+
+    font-size:20px;
+    font-weight:800;
+}
+
+.profissao-busca{
+
+    color:#777;
+
+    font-size:14px;
+
+    margin-top:3px;
+}
+
+.avaliacao-busca{
+
+    margin-top:8px;
+
+    font-size:14px;
+
+    color:#555;
+}
+
+.avaliacao-busca i{
+
+    color:#ffb400;
+}
+
+/* BOTÃO */
+
+.btn-chat{
+
+    min-width:52px;
+    height:52px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:#25d366;
+
+    color:white;
+
+    font-size:22px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    .categoria-card{
+
+        padding:18px 8px;
+    }
+
+    .texto-categoria{
+
+        font-size:13px;
+    }
+
+    .nome-busca{
+
+        font-size:18px;
+    }
+
+}
+
+/* =========================
+   MINHAS AVALIAÇÕES
+========================= */
+
+.topo-minhas-avaliacoes{
+
+    background:#4a7eff;
+
+    padding:20px;
+
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+
+    color:white;
+}
+
+.titulo-minhas-avaliacoes{
+
+    font-size:24px;
+    font-weight:800;
+}
+
+.icone-avaliacoes{
+
+    width:42px;
+    height:42px;
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,0.18);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:18px;
+}
+
+.subtitulo-minhas-avaliacoes{
+
+    margin-top:18px;
+
+    color:rgba(255,255,255,0.85);
+
+    font-size:15px;
+}
+
+/* RESUMO */
+
+.card-resumo-avaliacoes{
+
+    background:white;
+
+    border-radius:28px;
+
+    padding:22px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.numero-resumo{
+
+    font-size:30px;
+    font-weight:800;
+
+    color:#4a7eff;
+}
+
+.texto-resumo{
+
+    color:#888;
+
+    font-size:14px;
+
+    margin-top:4px;
+}
+
+/* CARD */
+
+.card-minha-avaliacao{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:20px;
+
+    margin-bottom:18px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.foto-minha-avaliacao{
+
+    width:62px;
+    height:62px;
+
+    border-radius:18px;
+
+    object-fit:cover;
+}
+
+.nome-prestador-avaliado{
+
+    font-size:18px;
+    font-weight:800;
+}
+
+.tipo-servico{
+
+    color:#777;
+
+    font-size:14px;
+
+    margin-top:3px;
+}
+
+.nota-minha-avaliacao{
+
+    background:#eef3ff;
+
+    color:#4a7eff;
+
+    padding:8px 14px;
+
+    border-radius:14px;
+
+    font-weight:700;
+}
+
+.nota-minha-avaliacao i{
+
+    color:#ffb400;
+}
+
+.comentario-minha-avaliacao{
+
+    margin-top:18px;
+
+    color:#444;
+
+    line-height:1.6;
+}
+
+.rodape-avaliacao{
+
+    margin-top:18px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    color:#888;
+
+    font-size:14px;
+}
+
+/* BOTÃO */
+
+.btn-editar-avaliacao{
+
+    border:none;
+
+    background:#eef3ff;
+
+    color:#4a7eff;
+
+    padding:10px 16px;
+
+    border-radius:14px;
+
+    font-size:14px;
+    font-weight:700;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    .titulo-minhas-avaliacoes{
+
+        font-size:22px;
+    }
+
+    .nome-prestador-avaliado{
+
+        font-size:16px;
+    }
+
+}
+
